@@ -2,7 +2,7 @@ import socket
 import threading
 
 HOST = '127.0.0.1'  # localhost
-PORT = 6379         # same port Redis uses
+PORT = 6380         # same port Redis uses
 
 def handle_client(conn, addr):
     print(f"New connection from {addr}")
